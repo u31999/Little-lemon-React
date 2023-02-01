@@ -1,0 +1,55 @@
+@import './root.css';
+
+div.top_promo_container {
+    background-color: var(--green-color);
+    height: 25rem;
+}
+.top_promo_card {
+    height: 331px !important;
+    width: 422px !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin: auto !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card_title {
+    font: 40pt regular !important;
+    text-align: left;
+    color: var(--yellow-color);
+    margin: 0px !important;
+}
+
+.card_subtitle {
+    font: 20px extra bold !important;
+    text-align: left !important;
+    color: var(--white-color) !important;
+}
+.card_body {
+    color: var(--white-color) !important;
+    text-align: left;
+    font: 16pt regular !important;
+    line-height: 1.5;
+    padding: 0px !important;
+}
+
+.img_card {
+    height: 420px !important;
+    width: 420px !important;
+    border: none !important;
+    background-color: transparent !important;
+    position: relative;
+
+}
+
+.img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+    position: absolute;
+    top: 12%;
+    border-radius: 25px !important;
+}

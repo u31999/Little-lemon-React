@@ -1,0 +1,14 @@
+.specials_upper-row {
+    height: 20%;
+}
+
+.specials_container {
+    display: flex !important;
+flex-direction: column !important;
+gap: 80px !important;
+}
+.specials_lower-row {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+

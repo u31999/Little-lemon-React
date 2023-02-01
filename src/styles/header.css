@@ -1,0 +1,20 @@
+@import './root.css';
+header {
+    height: 110px;
+}
+
+header div.logo {
+    background-image: url('../res/logo/16@4x.png');
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation_item {
+    color: black !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
